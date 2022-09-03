@@ -1,0 +1,1 @@
+.con{width:calc(100% - 20px);margin:auto}.con view{display:flex;height:30px;line-height:30px;justify-content:space-around}.con view text{flex:1;font-size:14px}.con view text:nth-child(1){text-align:left}.con view text:nth-child(2){text-align:center}.con view text:nth-child(3){text-align:right;color:#439947}

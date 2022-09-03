@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "u-line-progress": "/uni_modules/uview-ui/components/u-line-progress/u-line-progress",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-empty": "/uni_modules/uview-ui/components/u-empty/u-empty"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "系统通知",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-badge": "/uni_modules/uview-ui/components/u-badge/u-badge",
+    "u-empty": "/uni_modules/uview-ui/components/u-empty/u-empty"
+  }
+}

@@ -1,0 +1,1 @@
+.tab{width:100%;height:auto;display:flex;border:1rpx solid #999;justify-content:space-around}.tab .cell{flex:1;min-height:30px;font-size:12px;line-height:30px;height:auto;text-align:center;border-bottom:1rpx solid #999}.tab .head{background:silver}.tab .body{background:silver}

@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/club/club",
+    "pages/run/run",
+    "pages/my/my",
+    "pages/notify/notify",
+    "pages/rank/rank",
+    "pages/setting/setting",
+    "pages/counting/counting",
+    "pages/home/home",
+    "pages/notifydetail/notifydetail",
+    "pages/courseSelection/courseSelection",
+    "pages/timeTable/timeTable",
+    "pages/attitude/attitude",
+    "pages/achievement/achievement",
+    "pages/exercise/exercise"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#439947",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./static/img/home.png",
+        "selectedIconPath": "./static/img/home-sel.png"
+      },
+      {
+        "pagePath": "pages/run/run",
+        "text": "跑步",
+        "iconPath": "./static/img/running.png",
+        "selectedIconPath": "./static/img/running_sel.png"
+      },
+      {
+        "pagePath": "pages/club/club",
+        "text": "俱乐部",
+        "iconPath": "./static/img/club.png",
+        "selectedIconPath": "./static/img/club_sel.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./static/img/my.png",
+        "selectedIconPath": "./static/img/my_sel.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "用于跑步定位"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

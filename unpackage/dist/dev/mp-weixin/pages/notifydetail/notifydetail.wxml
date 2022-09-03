@@ -1,0 +1,1 @@
+<view class="con"><view class="title">{{notify.title}}</view><view class="text">{{notify.text}}</view><view class="author">{{notify.author.nickName}}</view><view class="date">{{notify.publicTime}}</view></view>

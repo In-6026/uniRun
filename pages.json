@@ -1,0 +1,168 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/club/club",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/run/run",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/notify/notify",
+			"style": {
+				"navigationBarTitleText": "系统通知",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/rank/rank",
+			"style": {
+				"navigationBarTitleText": "跑步排行榜",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/counting/counting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/notifydetail/notifydetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "公告详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/courseSelection/courseSelection",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "选课",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/timeTable/timeTable",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "课表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/attitude/attitude",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "课堂态度",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/achievement/achievement",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "测试成绩",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/exercise/exercise",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "课外锻炼",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"requiredBackgroundModes": ["location"],
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于跑步定位"
+		}
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#bfbfbf",
+		"selectedColor": "#439947",
+
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "./static/img/home.png",
+				"selectedIconPath": "./static/img/home-sel.png"
+			},
+			{
+				"pagePath": "pages/run/run",
+				"text": "跑步",
+				"iconPath": "./static/img/running.png",
+				"selectedIconPath": "./static/img/running_sel.png"
+			},
+			{
+				"pagePath": "pages/club/club",
+				"text": "俱乐部",
+				"iconPath": "./static/img/club.png",
+				"selectedIconPath": "./static/img/club_sel.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "./static/img/my.png",
+				"selectedIconPath": "./static/img/my_sel.png"
+			}
+		]
+	}
+}

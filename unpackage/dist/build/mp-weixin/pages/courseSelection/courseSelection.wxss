@@ -1,0 +1,3 @@
+.con{width:calc(100% - 20px);margin:auto}.con .card{box-sizing:border-box;width:100%;height:105px;padding:10px;box-shadow:0 0 5px grey}.con .card .info{height:60px;width:100%}.con .card .info .name{height:20px;font-size:15px;font-weight:700}.con .card .info .range,
+.con .card .info .place{height:20px;font-size:13px;line-height:20px}.con .card .info .range text,
+.con .card .info .place text{margin-right:20px}.con .card .select{width:100%;height:20px;margin-top:5px;display:flex}.con .card .select view{width:60px;height:100%;margin-right:20px}

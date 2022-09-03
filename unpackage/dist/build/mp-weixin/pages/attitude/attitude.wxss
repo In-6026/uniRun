@@ -1,0 +1,1 @@
+.con{width:calc(100% - 20px);margin:auto}.con view{width:100%;height:30px;line-height:30px}.con view text{font-size:14px}.con view text:nth-child(1){float:left}.con view text:nth-child(2){float:right}.con view text:nth-child(2):after{clear:both}
